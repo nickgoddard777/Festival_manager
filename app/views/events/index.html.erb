@@ -1,22 +1,22 @@
 <h1>Listing events</h1>
 
 <table>
-  <tr>
-    <th>Title</th>
-    <th>Description</th>
-    <th>Startdate</th>
-    <th>Enddate</th>
-    <th>Starttime</th>
-    <th>Endtime</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
+	<thead>
+		<tr>
+			<th>Title</th>
+			<th>Startdate</th>
+			<th>Enddate</th>
+			<th>Starttime</th>
+			<th>Endtime</th>
+			<th></th>
+			<th></th>
+			<th></th>
+		</tr>
+	</thead>
 
 <% @events.each do |event| %>
   <tr>
     <td><%= event.title %></td>
-    <td><%= event.description %></td>
     <td><%= event.startdate %></td>
     <td><%= event.enddate %></td>
     <td><%= event.starttime %></td>

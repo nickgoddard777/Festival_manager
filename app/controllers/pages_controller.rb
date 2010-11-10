@@ -8,10 +8,10 @@ class PagesController < ApplicationController
   def about
   end
 
-  def lisa-vickerage
+  def lisavickerage
   end
 
-  def ellen-wray
+  def ellenwray
   end
 
 end
