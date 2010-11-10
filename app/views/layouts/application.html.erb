@@ -16,7 +16,7 @@
 </head>
 <body id="index" class="home">
 	<header class="body" id="banner">
-		<h1><a href="#">Inspirational Gatherings</a></h1>
+		<h1><%= link_to "Inspirational Gatherings", '/' %></h1>
 
 		<nav><ul>
 			<li><%= link_to "Home", '/' %></li>
@@ -99,8 +99,7 @@
 			</table>
 		</section><!-- /#event-calendar -->
 		
-		
-		<img src="images/Inspirational Retreat Image.jpg" alt="Inspirational Retreat Image" />
+		<%= image_tag("Inspirational Retreat Image.jpg", :alt => "Inspirational Retreat Image") %>
 		
 		<div class="social">
 			<h2>social</h2>
@@ -114,7 +113,7 @@
 				<li><a href="http://afestivalorganisers.blogspot.com/feeds/posts/default" rel="alternate">rss</a></li>
 				<li><a href="http://twitter.com/enrique_ramirez" rel="me">twitter</a></li>				
 				<li><a href="http://uk.linkedin.com/in/inspirationalgatherings" rel="me">linkedin</a></li>
-
+3
 			</ul>
 		</div><!-- /.social -->
 	</section>
@@ -122,16 +121,18 @@
 	<footer id="contentinfo" class="body">
 		<address id="about" class="vcard body">
 			<span class="primary">
-				<strong><a href="#" class="fn url">Inspirational Gatherings</a></strong>
+				<strong><%= link_to "Inspirational Gatherings", '/', :class => 'fn url' %></strong>
 
 				<span class="role">Amazing Events</span>
 			</span><!-- /.primary -->
+			
+			<%= image_tag("logo-small.jpg", :alt => "Inspirational Gatherings Logo", :class => "photo") %>
 
-			<img src="images/logo-small.jpg" alt="Inspirational Gatherings Logo" class="photo" />
+			
 			<span class="bio">Inspirational Gatherings are a company that create spaces where you can dream, explore and discover your potential...... It was founded by Ellen Wray and Lisa Vickerage.</span>
 
 		</address><!-- /#about -->
-		<p>2010 <a href="http://www.inspirationalgatherings.com">Inspirational Gatherings</a>.</p>
+		<p>2010 <%= link_to "Inspirational Gatherings", '/' %>.</p>
 	</footer><!-- /#contentinfo -->
 
 

@@ -17,10 +17,10 @@
 <% @events.each do |event| %>
   <tr>
     <td><%= event.title %></td>
-    <td><%= event.startdate %></td>
-    <td><%= event.enddate %></td>
-    <td><%= event.starttime %></td>
-    <td><%= event.endtime %></td>
+    <td><%= event.startdate.strftime("%d-%m-%Y") %></td>
+    <td><%= event.enddate.strftime("%d-%m-%Y") %></td>
+    <td><%= event.starttime.strftime("%H:%M") %></td>
+    <td><%= event.endtime.strftime("%H:%M") %></td>
     <td><%= link_to 'Show', event %></td>
     <td><%= link_to 'Edit', edit_event_path(event) %></td>
     <td><%= link_to 'Destroy', event, :confirm => 'Are you sure?', :method => :delete %></td>
