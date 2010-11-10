@@ -1,4 +1,14 @@
 FestivalManager::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/contact"
+
+  get "pages/about"
+
+  get "pages/lisa-vickerage"
+
+  get "pages/ellen-wray"
+
   resources :venues
 
   resources :events
