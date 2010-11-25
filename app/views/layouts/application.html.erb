@@ -31,6 +31,9 @@
 	
 	
 	<section class="body" id="content">
+		<% flash.each do |key, value| %>
+			<div class="flash <%= key %>"><%= value %></div>
+		<% end %>
 		<%= yield %>
 	</section>
 	
@@ -113,7 +116,6 @@
 				<li><a href="http://afestivalorganisers.blogspot.com/feeds/posts/default" rel="alternate">rss</a></li>
 				<li><a href="http://twitter.com/enrique_ramirez" rel="me">twitter</a></li>				
 				<li><a href="http://uk.linkedin.com/in/inspirationalgatherings" rel="me">linkedin</a></li>
-3
 			</ul>
 		</div><!-- /.social -->
 	</section>

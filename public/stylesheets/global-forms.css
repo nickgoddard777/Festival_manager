@@ -43,6 +43,8 @@ label {font-size: 1.1em; height: 25px; line-height: 25px;}
     /* Input Types */
 
     input[type='text'],
+    
+    input[type='password'],
 
     input[type='email'],
 
@@ -65,6 +67,8 @@ label {font-size: 1.1em; height: 25px; line-height: 25px;}
     }
 
     input[type='text']:hover,
+    
+    input[type='password']:hover,
 
     input[type='email']:hover,
 
@@ -81,6 +85,8 @@ label {font-size: 1.1em; height: 25px; line-height: 25px;}
     }
 
     input[type='text']:focus,
+    
+    input[type='password']:focus,
 
     input[type='email']:focus,
 
