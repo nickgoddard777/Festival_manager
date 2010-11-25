@@ -27,5 +27,6 @@ gem 'rails', '3.0.1'
  group :development, :test do
 	
 	gem 'sqlite3-ruby', :require => 'sqlite3'
+	gem 'annotate-models', '1.0.4'
 #   gem 'webrat'
  end
