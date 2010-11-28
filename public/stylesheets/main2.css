@@ -8,7 +8,7 @@
 	body {
 		font-family: 'Century Gothic', sans-serif;
 		font-size: 87.5%;
-		background: #D8F2DB;
+		background: #FFF;
 		color: #000;
 		line-height: 1.429;
 		margin: 0;
@@ -89,7 +89,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 
 /* Main Nav */
 #banner nav {
-	background: #8ACC92;
+	background: #8C7E93;
 	font-size: 1.143em;
 	height: 40px;
 	line-height: 30px;
@@ -107,7 +107,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 #banner nav li {float: left; display: inline; margin: 0;}
 
 #banner nav a:link, #banner nav a:visited {
-	color: #FFE9CF;
+	color: #C69B47;
 	display: inline-block;
 	height: 30px;
 	padding: 5px 1.5em;
@@ -115,8 +115,8 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 }
 #banner nav a:hover, #banner nav a:active,
 #banner nav .active a:link, #banner nav .active a:visited {
-	background: #E1C098;
-	color: #BBE7C1;
+	background: #8272F9;
+	color: #C69B47;
 	text-shadow: none !important;
 }
 
@@ -134,7 +134,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	Body
 *****************/
 #content {
-	background: #fff;
+	background: #FAE9B1;
 	margin-bottom: 2em;
 	overflow: hidden;
 	padding: 20px 20px;
@@ -152,7 +152,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 #extras {margin: 0 auto 3em auto; overflow: hidden;}
 
 #extras ul {list-style: none; margin: 0;}
-#extras li {border-bottom: 1px solid #fff;}
+#extras li {border-bottom: 1px solid #FAE9B1;}
 #extras h2 {
 	color: #C988B7;
 	font-size: 1.429em;
@@ -237,7 +237,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	About
 *****************/
 #about {
-	background: #fff;
+	background: #FAE9B1;
 	font-style: normal;
 	margin-bottom: 2em;
 	overflow: hidden;

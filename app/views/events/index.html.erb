@@ -22,12 +22,19 @@
     <td><%= event.starttime.strftime("%H:%M") %></td>
     <td><%= event.endtime.strftime("%H:%M") %></td>
     <td><%= link_to 'Show', event %></td>
+    <% if signed_in? %>
     <td><%= link_to 'Edit', edit_event_path(event) %></td>
     <td><%= link_to 'Destroy', event, :confirm => 'Are you sure?', :method => :delete %></td>
+    <% else %>
+    <td></td>
+    <td></td>
+    <% end %>
   </tr>
 <% end %>
 </table>
 
 <br />
 
+<% if signed_in? %>
 <%= link_to 'New Event', new_event_path %>
+<% end %>
