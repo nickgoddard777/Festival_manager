@@ -1,5 +1,7 @@
 FestivalManager::Application.routes.draw do
 
+  resources :event_types
+
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
 
